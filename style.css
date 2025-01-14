@@ -1,3 +1,9 @@
+/* diagnostic styling */
+
+* {
+    outline: 2px dotted white
+}
+
 body {  
     background: magenta;
     color: white;
