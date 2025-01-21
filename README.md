@@ -15,6 +15,7 @@ Click on that "Use this template" button to create a new repository you absolute
 ## Citations
 
 * [Normalize CSS] (https://necolas.github.io/normalize.css/8.0.1/normalize.css)
+* [Animate CSS] (https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css)
 * [Google Fonts] (https://fonts.google.com/)
 * [Lucide] (https://lucide.dev/icons/ghost)
 * [MDN] (https://developer.mozilla.org/en-US/docs/Web/CSS/transition)

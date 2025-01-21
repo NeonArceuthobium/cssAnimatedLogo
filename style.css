@@ -1,48 +1,60 @@
 body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0a0a0a;
-    overflow: hidden;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a0a;
+  overflow: hidden;
+  color: white;
+}
+
+h1{
+  animation-name: animate__bounceInDown;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+}
+
+.svgIcon {
+  color: red;
+  scale: 3; 
+  height: 3em;
+  width: 3em;
+  animation: bounceInDown;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+}
+
+
+.svgIcon:hover {
+  transform-origin: center;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    transition: color 3s ease
+}
+
+@keyframes spin {
+  
+  0% {
+    transform: scale(0,1);
     color: white;
   }
   
-  .svgIcon {
+  50% {
+    transform: scale(1, 1);
     color: red;
-    scale: 3; 
-    height: 3em;
-    width: 3em;
-    
   }
   
-  
-  .svgIcon:hover {
-    transform-origin: center;
-      animation-name: spin;
-      animation-duration: 1s;
-      animation-timing-function: ease-in-out;
-      animation-iteration-count: infinite;
-      animation-fill-mode: forwards;
-      transition: color 3s ease
+  100% {
+    transform: scale(0,1);
+    color: white;
   }
   
-  @keyframes spin {
-    
-    0% {
-      transform: scale(0,1);
-      color: white;
-    }
-    
-    50% {
-      transform: scale(1, 1);
-      color: red;
-    }
-    
-    100% {
-      transform: scale(0,1);
-      color: white;
-    }
-    
-  }
+}
