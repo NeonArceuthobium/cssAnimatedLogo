@@ -2,7 +2,11 @@
 
 ## Why?
 
-Show proficiency animating SVGs with CSS
+Understand the parts of SVG elements that can be animated
+CSS Animations are lightweight and easy to implement and improve user experience
+Learn CSS tranforms, transitions, and keyframes
+Add existing animation libraries to your project and save time
+Use SVG icons in your future projects
 
 ## How?
 
