@@ -10,7 +10,9 @@ Use SVG icons in your future projects
 
 ## How?
 
-Click on that "Use this template" button to create a new repository you absolute G.
+Libraries like Animate CSS
+CSS Transform, Translate, and Keyframes
+And the Animation property
 
 ## Citations
 
